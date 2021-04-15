@@ -152,6 +152,10 @@
     #casa{
         display: none;
     }
+    .aroiba{
+        margin: -40px auto 5px auto;
+    }
+
     .logo-here5 {
         position: absolute;
         margin: 50% auto;
