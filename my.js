@@ -4,7 +4,7 @@
 
     const cas = screen.height
     if (cas <= 800) {
-        document.getElementById("casing").classList = ""
+        // document.getElementById("casing").classList = ""
     }
 
     // nanti hapus
@@ -27,9 +27,13 @@
         const url = document.getElementById("basic-url1").value
         document.getElementById("modalsort21").src = url
     }
+    function lepas() {
+        document.getElementById('pancar').innerHTML=""
+        document.getElementById("casing").classList = "col-md-12 col-sm-12 doc"
+    }
 
     function moving(id) {
-        document.getElementById("casing").classList = "col-md-6 col-sm-6 doc"
+        document.getElementById("casing").classList = "col-md-3 col-sm-12 doc"
         document.getElementById("pancar").innerHTML = ""
         document.getElementById("m" + id).style.display = "block"
         document.getElementById("pancar").innerHTML = document.getElementById("m" + id).innerHTML
