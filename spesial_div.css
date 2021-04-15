@@ -153,11 +153,12 @@
         display: none;
     }
     .logo-here5 {
+        position: absolute;
         margin: 50% auto;
         color: #fff;
         font-weight: 600;
         font-size: 36px;
-        position: absolute;
+
         left: 50%;
         top: 30%;
         transform: translate(-50%, 50%);
