@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(315deg, #0004ea 0%, #0091ea 74%);
+}
+
+h3{
+    text-align: center;
+}
+
+.container{
+    padding: 50px;
+    margin-top: 80px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.btn{
+    margin-top: 15px;
+    padding: 20px 493px;
+    text-align: center;
+    background-image: linear-gradient(315deg, #00bbea 0%, #00bbea 74%);
+}
+
+/* Untuk tampilan di mobile */
+/*masih butuh perbaikan*/
+@media screen and (max-width: 320px) {
+    .btn{
+        margin-top: 15px;
+        padding: 20px 85px;
+        background-image: linear-gradient(315deg, #00bbea 0%, #00bbea 74%);
+    }
+}
+  @media screen and (min-width: 321px) and (max-width: 410px) {
+
+    .btn{
+        margin-top: 15px;
+        padding: 20px 100px;
+        background-image: linear-gradient(315deg, #00bbea 0%, #00bbea 74%);
+    }
+  }
+  @media screen and (min-width: 411px) and (max-width: 760px) {
+    .btn{
+        margin-top: 15px;
+        padding: 20px 130px;
+        background-image: linear-gradient(315deg, #00bbea 0%, #00bbea 74%);
+    }
+    }
+    @media screen and (min-width: 761px) and (max-width: 1024px) {
+        .btn{
+            margin-top: 15px;
+            padding: 20px 285px;
+            background-image: linear-gradient(315deg, #00bbea 0%, #00bbea 74%);
+        }
+    
+}
