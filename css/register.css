@@ -14,41 +14,8 @@ h3{
 }
 
 .btn{
-    margin-top: 15px;
-    padding: 20px 493px;
+    padding: 10px;
     text-align: center;
     background-image: linear-gradient(315deg, #00bbea 0%, #00bbea 74%);
 }
 
-/* Untuk tampilan di mobile */
-/*masih butuh perbaikan*/
-@media screen and (max-width: 320px) {
-    .btn{
-        margin-top: 15px;
-        padding: 20px 85px;
-        background-image: linear-gradient(315deg, #00bbea 0%, #00bbea 74%);
-    }
-}
-  @media screen and (min-width: 321px) and (max-width: 410px) {
-
-    .btn{
-        margin-top: 15px;
-        padding: 20px 100px;
-        background-image: linear-gradient(315deg, #00bbea 0%, #00bbea 74%);
-    }
-  }
-  @media screen and (min-width: 411px) and (max-width: 760px) {
-    .btn{
-        margin-top: 15px;
-        padding: 20px 130px;
-        background-image: linear-gradient(315deg, #00bbea 0%, #00bbea 74%);
-    }
-    }
-    @media screen and (min-width: 761px) and (max-width: 1024px) {
-        .btn{
-            margin-top: 15px;
-            padding: 20px 285px;
-            background-image: linear-gradient(315deg, #00bbea 0%, #00bbea 74%);
-        }
-    
-}
