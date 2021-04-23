@@ -27,6 +27,17 @@
     background-image: linear-gradient(315deg, #0004ea 0%, #0091ea 74%);
 
 }
+.spscontainer {
+    padding: 50px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+.coslink{
+    font-size: 25px;
+}
 
 .spsldiv {
     border-radius: 1%;
@@ -215,6 +226,9 @@
 }
 
 @media screen and (max-width: 500px) {
+    .coslink{
+        font-size: 15px;
+    }
     .aroiba {
         display: none;
     }
