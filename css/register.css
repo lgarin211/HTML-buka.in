@@ -74,13 +74,13 @@ i{
     .facebook{
         text-align: center;
         background-color: #0004ea;
-        border-radius: 100%;
+        /* border-radius: 100%; */
         padding-left: 25px;
     }
     .google{
         text-align: center;
         background-color: red;
         padding-left: 25px;
-        border-radius: 100%;
+        /* border-radius: 100%; */
     }
     }

@@ -226,6 +226,9 @@
 }
 
 @media screen and (max-width: 500px) {
+    .logins{
+        display: none;
+    }
     .coslink{
         font-size: 15px;
     }
