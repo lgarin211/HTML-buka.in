@@ -49,3 +49,27 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+i{
+    padding-right: 10px;
+}
+
+.social{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.facebook{
+    text-align: center;
+    background-color: #0004ea;
+}
+.google{
+    text-align: center;
+    background-color: red;
+}
+
+.cancel{
+    background-color: rgb(255, 68, 68);
+    color: white;
+} 
